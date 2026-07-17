@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "title": "BlogSphere",
+    "category": "MERN Stack",
+    "featured": true,
+    "image": "assets/projects/blogsphere.png",
+    "description": "A modern MERN blogging platform featuring secure authentication, AI-assisted content generation, cloud image uploads, and an admin dashboard.",
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "ImageKit",
+      "Gemini API"
+    ],
+    "features": [
+      "JWT Authentication",
+      "Admin Dashboard",
+      "AI Blog Generation",
+      "Cloud Image Upload"
+    ],
+    "github": "https://github.com/Bhagyashree1608/FullStack-Blogging-Platform",
+    "demo": "https://blogsphere-client.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "BudgetBuddy",
+    "category": "PHP Full Stack",
+    "featured": true,
+    "image": "assets/projects/budgetbuddy.png",
+    "description": "A personal finance management system for tracking income, expenses, bank accounts, and financial reports with interactive analytics.",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "Chart.js",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "features": [
+      "Expense Tracking",
+      "Dashboard",
+      "Financial Reports",
+      "Chart Analytics"
+    ],
+    "github": "https://github.com/Bhagyashree1608/BudgetBuddy",
+    "demo": "https://budgetbuddy-bm.wuaze.com"
+  },
+  {
+    "id": 3,
+    "title": "Hostel Management System",
+    "category": "Java Full Stack",
+    "featured": true,
+    "image": "assets/projects/hostel.png",
+    "description": "A Java-based hostel management application for handling student records, room allocation, fee management, and database operations.",
+    "technologies": [
+      "Java",
+      "JDBC",
+      "MySQL",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Student Records",
+      "Room Allocation",
+      "Fee Management",
+      "CRUD Operations"
+    ],
+    "github": "https://github.com/Bhagyashree1608/HostelHub-Student-Accommodation-Management",
+    "demo": "#"
+  },
+  {
+    "id": 4,
+    "title": "Wanderlust",
+    "category": "MERN Stack",
+    "featured": true,
+    "image": "assets/projects/wanderlust.png",
+    "description": "An Airbnb-inspired rental platform with authentication, property listings, image uploads, reviews, and MVC architecture.",
+    "technologies": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "EJS",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "features": [
+      "Property Listings",
+      "Authentication",
+      "Reviews",
+      "MVC Architecture"
+    ],
+    "github": "https://github.com/Bhagyashree1608/Wanderlust-Rental-Property-Platform",
+    "demo": "#"
+  },
+  {
+    "id": 5,
+    "title": "GalliSupply",
+    "category": "PHP Full Stack",
+    "featured": false,
+    "image": "assets/projects/gallisupply.png",
+    "description": "A supplier–vendor management platform that simplifies ordering, tracking, and inventory operations for the food supply industry.",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ],
+    "features": [
+      "Vendor Dashboard",
+      "Order Tracking",
+      "Product Management",
+      "Authentication"
+    ],
+    "github": "https://github.com/Bhagyashree1608/GalliSupply-Supplier-Vendor-Order-Management-System",
+    "demo": "#"
+  },
+  {
+    "id": 6,
+    "title": "CivicVoice",
+    "category": "Python Flask",
+    "featured": false,
+    "image": "assets/projects/civicvoice.png",
+    "description": "A civic engagement platform for reporting issues, creating petitions, and visualizing civic analytics through interactive dashboards.",
+    "technologies": [
+      "Flask",
+      "SQLite",
+      "Bootstrap",
+      "Chart.js",
+      "JavaScript"
+    ],
+    "features": [
+      "Complaint Portal",
+      "Petitions",
+      "Analytics Dashboard",
+      "Interactive Charts"
+    ],
+    "github": "https://github.com/Bhagyashree1608/CivicVoice",
+    "demo": "#"
+  },
+  {
+    "id": 7,
+    "title": "Food Management System",
+    "category": "PHP Web App",
+    "featured": false,
+    "image": "assets/projects/foodmng.png",
+    "description": "A restaurant management application supporting menu management, order placement, bill generation, and secure login.",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Multi-Cuisine Menu",
+      "Order Processing",
+      "Bill Generation",
+      "Authentication"
+    ],
+    "github": "https://github.com/Bhagyashree1608/Food-Management",
+    "demo": "#"
+  },
+  {
+    "id": 8,
+    "title": "Spotify Clone",
+    "category": "Frontend",
+    "featured": false,
+    "image": "assets/projects/spotify.png",
+    "description": "A responsive Spotify-inspired frontend built with HTML and CSS, recreating the modern music streaming interface.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Font Awesome"
+    ],
+    "features": [
+      "Responsive Design",
+      "Spotify UI",
+      "Music Player",
+      "Playlist Layout"
+    ],
+    "github": "https://github.com/Bhagyashree1608/Spotify-Clone",
+    "demo": "#"
+  }
+]

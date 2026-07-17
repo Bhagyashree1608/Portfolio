@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Bhagyashree Mistari | Portfolio</title>
+
+    <meta name="description"
+          content="Bhagyashree Mistari - Java Full Stack Developer Portfolio">
+
+    <meta name="keywords"
+          content="Bhagyashree Mistari, Portfolio, Java Developer, Full Stack Developer">
+
+    <meta name="author"
+          content="Bhagyashree Mistari">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body
+      class="bg-[#292845] text-[#E5DAD3] font-[Poppins] overflow-x-hidden">
+
+    <!-- ================================================= -->
+    <!-- NAVBAR -->
+    <!-- ================================================= -->
+
+    <div id="navbar"></div>
+
+    <!-- ================================================= -->
+    <!-- HERO -->
+    <!-- ================================================= -->
+
+    <div id="hero"></div>
+
+    <!-- ================================================= -->
+    <!-- ABOUT -->
+    
+
+    <!-- ==============<div id="about"></div>=================================== -->
+
+    <!-- ================================================= -->
+    <!-- SKILLS -->
+    <!-- ================================================= -->
+
+    <div id="skills"></div>
+
+    <!-- ================================================= -->
+    <!-- EDUCATION -->
+    <!-- ================================================= -->
+
+    <div id="education"></div>
+
+    <!-- ================================================= -->
+    <!-- EXPERIENCE -->
+    <!-- ================================================= -->
+
+    <div id="experience"></div>
+
+    <!-- ================================================= -->
+    <!-- PROJECTS -->
+    <!-- ================================================= -->
+
+    <div id="projects"></div>
+
+    <!-- ================================================= -->
+    <!-- ACHIEVEMENTS -->
+    <!-- ================================================= -->
+
+    <div id="achievements"></div>
+
+    <!-- ================================================= -->
+    <!-- CERTIFICATES -->
+    <!-- ================================================= -->
+
+    <div id="certificates"></div>
+
+    <!-- ================================================= -->
+    <!-- CONTACT -->
+    <!-- ================================================= -->
+
+    <div id="contact"></div>
+
+    <!-- ================================================= -->
+    <!-- FOOTER -->
+    <!-- ================================================= -->
+
+    <div id="footer"></div>
+
+    <!-- ================================================= -->
+    <!-- EmailJS -->
+    <!-- ================================================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- ================================================= -->
+    <!-- AOS -->
+    <!-- ================================================= -->
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+
+            duration: 1000,
+            once: true
+
+        });
+
+    </script>
+
+    <!-- ================================================= -->
+    <!-- Load Sections -->
+    <!-- ================================================= -->
+
+    <script>
+
+async function loadSection(id, file) {
+
+    const response = await fetch(file);
+
+    document.getElementById(id).innerHTML =
+        await response.text();
+
+}
+
+async function loadPortfolio() {
+
+await Promise.all([
+
+    loadSection("navbar", "sections/navbar.html"),
+    loadSection("hero", "sections/hero.html"),
+    // loadSection("about", "sections/about.html"), // Uncomment only if <div id="about"></div> exists
+    loadSection("skills", "sections/skills.html"),
+    loadSection("education", "sections/education.html"),
+    loadSection("experience", "sections/experience.html"),
+    loadSection("projects", "sections/projects.html"),
+    loadSection("achievements", "sections/achievements.html"),
+    loadSection("certificates", "sections/certificates.html"),
+    loadSection("contact", "sections/contact.html"),
+    loadSection("footer", "sections/footer.html")
+
+]);
+
+AOS.refresh();
+
+initNavbar();
+initContactForm();
+
+loadProjects();
+loadAchievements();
+loadCertificates();
+
+}
+
+loadPortfolio();
+
+</script>
+
+    <!-- ================================================= -->
+    <!-- JavaScript Files -->
+    <!-- ================================================= -->
+
+    <script src="js/script.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/achievements.js"></script>
+    <script src="js/certificates.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>

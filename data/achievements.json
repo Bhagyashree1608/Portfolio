@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Academic Topper – 3rd Rank in B.E. IT (Second Year)",
+        "organization": "Bharati Vidyapeeth College of Engineering for Women, Pune",
+        "year": "2025",
+        "image": "assets/achievements/3rdrankseit.jpeg",
+        "description": "Secured 3rd Rank in the Second Year of Bachelor of Engineering (Information Technology) through consistent academic excellence and outstanding performance throughout the academic year.",
+        "badge": "Academic Excellence",
+        "icon": "fa-solid fa-trophy"
+
+    },
+
+    {
+        "id": 2,
+        "title": "2nd Position – WebFusion",
+        "organization": "D. Y. Patil College, Pune",
+        "year": "2025",
+        "image": "assets/achievements/webfusion.jpeg",
+        "description": "Achieved 2nd Position in the WebFusion competition by designing and developing an innovative, responsive and user-friendly web application while competing against multiple teams.",
+        "badge": "Competition",
+        "icon": "fa-solid fa-medal"
+    },    
+    {
+        "id": 3,
+        "title": "11th Rank – Vortexa 2.0 Hackathon",
+        "organization": "D. Y. Patil College, Pune",
+        "year": "2025",
+        "image": "assets/achievements/dyphackthon.jpeg",
+        "description": "Secured 11th Rank in the Vortexa 2.0 Hackathon by collaborating in a team to build an innovative software solution within a limited time, demonstrating strong problem-solving and development skills.",
+        "badge": "Hackathon",
+        "icon": "fa-solid fa-laptop-code"
+    },
+
+    {
+        "id": 4,
+        "title": "Best Project Team Award",
+        "organization": "Sumago Infotech Pvt. Ltd.",
+        "year": "2024",
+        "image": "assets/achievements/bestprojectteam.jpeg",
+        "description": "Received the Best Project Team Award during the Java Full Stack Internship for successfully designing and developing the Hostel Management System with excellent teamwork and project execution.",
+        "badge": "Internship Award",
+        "icon": "fa-solid fa-award"
+    },
+
+    {
+        "id": 5,
+        "title": "Outstanding Girl Award",
+        "organization": "Sumago Infotech Pvt. Ltd.",
+        "year": "2024",
+        "image": "assets/achievements/ogirl.jpeg",
+        "description": "Honored with the Outstanding Girl Award for exceptional dedication, discipline, consistent performance and active participation throughout the internship program.",
+        "badge": "Recognition",
+        "icon": "fa-solid fa-star"
+    }
+]

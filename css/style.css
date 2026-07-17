@@ -1,0 +1,522 @@
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+.nav-link{
+
+position:relative;
+color:#E5DAD3;
+
+transition:.3s;
+
+}
+.nav-link:hover{
+
+color:#C5AAA4;
+
+}
+.nav-link::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-8px;
+width:0;
+height:2px;
+background:#C5AAA4;
+transition:.4s;
+
+}
+
+.nav-link:hover::after{
+
+width:100%;
+
+}
+
+/* Mobile */
+
+.mobile-link{
+
+color:#E5DAD3;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+.mobile-link:hover{
+
+color:#C5AAA4;
+
+letter-spacing:1px;
+
+}
+
+/* ========================= */
+/* SKILL CARD */
+/* ========================= */
+
+.skill-card{
+
+background:rgba(81,82,114,.30);
+
+backdrop-filter:blur(15px);
+
+border:1px solid rgba(154,143,155,.25);
+
+border-radius:22px;
+
+padding:30px 20px;
+
+text-align:center;
+
+transition:.35s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.skill-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#C5AAA4;
+
+box-shadow:0 15px 35px rgba(197,170,164,.25);
+
+}
+
+.skill-card img{
+
+width:72px;
+
+height:72px;
+
+margin:auto;
+
+transition:.4s;
+
+}
+
+.skill-card:hover img{
+
+transform:scale(1.12) rotate(5deg);
+
+}
+
+.skill-card h3{
+
+margin-top:18px;
+
+font-size:20px;
+
+font-weight:600;
+
+color:#E5DAD3;
+
+}
+
+.skill-card p{
+
+margin-top:6px;
+
+font-size:14px;
+
+color:#9A8F9B;
+
+}
+/* ================================================= */
+/* CONTACT SECTION */
+/* ================================================= */
+
+#contact{
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+/* Contact Cards */
+
+.contact-card{
+
+    background: rgba(81,82,114,0.18);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    border:1px solid rgba(154,143,155,0.35);
+
+    border-radius:24px;
+
+    transition:.4s;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#C5AAA4;
+
+    box-shadow:
+    0 20px 45px rgba(197,170,164,.18);
+
+}
+
+/* ================================================= */
+/* FORM */
+/* ================================================= */
+
+#contactForm input,
+#contactForm textarea{
+
+    width:100%;
+
+    background:#292845;
+
+    border:1px solid rgba(154,143,155,.35);
+
+    color:#E5DAD3;
+
+    border-radius:14px;
+
+    transition:.35s;
+
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder{
+
+    color:rgba(229,218,211,.45);
+
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus{
+
+    outline:none;
+
+    border-color:#C5AAA4;
+
+    box-shadow:
+    0 0 0 4px rgba(197,170,164,.15);
+
+}
+
+/* ================================================= */
+/* BUTTON */
+/* ================================================= */
+
+#sendBtn{
+
+    background:#C5AAA4;
+
+    color:#292845;
+
+    transition:.35s;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+#sendBtn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 15px 35px rgba(197,170,164,.30);
+
+}
+
+#sendBtn:disabled{
+
+    opacity:.7;
+
+    cursor:not-allowed;
+
+}
+
+/* ================================================= */
+/* STATUS MESSAGE */
+/* ================================================= */
+
+#statusMessage{
+
+    min-height:28px;
+
+    font-weight:600;
+
+}
+
+/* ================================================= */
+/* SOCIAL LINKS */
+/* ================================================= */
+
+.social-link{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    background:#292845;
+
+    border:1px solid rgba(154,143,155,.20);
+
+    transition:.35s;
+
+}
+
+.social-link:hover{
+
+    transform:translateX(10px);
+
+    background:#515272;
+
+    border-color:#C5AAA4;
+
+}
+
+.social-link i:first-child{
+
+    font-size:30px;
+
+    color:#C5AAA4;
+
+    transition:.35s;
+
+}
+
+.social-link:hover i:first-child{
+
+    transform:scale(1.15);
+
+}
+
+.social-link .fa-arrow-up-right-from-square{
+
+    opacity:.6;
+
+    transition:.35s;
+
+}
+
+.social-link:hover .fa-arrow-up-right-from-square{
+
+    opacity:1;
+
+    transform:rotate(10deg);
+
+}
+
+/* ================================================= */
+/* HEADINGS */
+/* ================================================= */
+
+#contact h3{
+
+    color:#E5DAD3;
+
+}
+
+/* ================================================= */
+/* MOBILE */
+/* ================================================= */
+
+@media(max-width:768px){
+
+    .contact-card{
+
+        padding:28px;
+
+    }
+
+    .social-link{
+
+        padding:18px;
+
+    }
+
+}
+
+/* ================================================= */
+/* FOOTER */
+/* ================================================= */
+
+footer{
+
+    background:#22213B;
+
+    border-top:1px solid rgba(154,143,155,.25);
+
+}
+
+/* Container */
+
+footer .max-w-7xl{
+
+    position:relative;
+
+}
+
+/* ================================================= */
+/* COPYRIGHT */
+/* ================================================= */
+
+footer p{
+
+    font-size:15px;
+
+    color:rgba(229,218,211,.75);
+
+}
+
+footer p span{
+
+    color:#C5AAA4;
+
+}
+
+/* ================================================= */
+/* SOCIAL ICONS */
+/* ================================================= */
+
+.footer-icon{
+
+    width:48px;
+
+    height:48px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(81,82,114,.18);
+
+    border:1px solid rgba(154,143,155,.25);
+
+    color:#E5DAD3;
+
+    font-size:22px;
+
+    transition:.35s;
+
+}
+
+.footer-icon img{
+
+    width:24px;
+
+    height:24px;
+
+    transition:.35s;
+
+}
+
+/* Hover */
+
+.footer-icon:hover{
+
+    background:#C5AAA4;
+
+    color:#292845;
+
+    border-color:#C5AAA4;
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(197,170,164,.35);
+
+}
+
+/* GitHub */
+
+.footer-icon:hover .fa-github{
+
+    color:#292845;
+
+}
+
+/* LinkedIn */
+
+.footer-icon:hover .fa-linkedin{
+
+    color:#0077B5;
+
+}
+
+/* Email */
+
+.footer-icon:hover .fa-envelope{
+
+    color:#292845;
+
+}
+
+/* LeetCode */
+
+.footer-icon:hover img{
+
+    transform:scale(1.15);
+
+}
+
+/* ================================================= */
+/* BACK TO TOP */
+/* ================================================= */
+
+footer a:last-child{
+
+    color:rgba(229,218,211,.75);
+
+    font-weight:500;
+
+    transition:.35s;
+
+}
+
+footer a:last-child:hover{
+
+    color:#C5AAA4;
+
+}
+
+footer a:last-child i{
+
+    transition:.35s;
+
+}
+
+footer a:last-child:hover i{
+
+    transform:translateY(-5px);
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}

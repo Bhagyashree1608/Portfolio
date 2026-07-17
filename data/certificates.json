@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "title": "Java Programming (Core + Advanced)",
+    "organization": "Info Planet Coding Classes, Jalgaon",
+    "year": "12, February 2024",
+    "icon": "fa-solid fa-laptop-code",
+    "description": "Completed Java Programming (Core + Advanced) covering OOP, JDBC, Servlets, JSP, and modern Java development.",
+    "pdf": "assets/certificates/java-programming.pdf"
+    },
+
+    {
+    "id": 2,
+    "title": "Python Programming",
+    "organization": "Info Planet Coding Classes, Jalgaon",
+    "year": "16, July 2024",
+    "icon": "fa-brands fa-python",
+    "description": "Completed Python Programming covering OOP, file handling, exception handling, and application development.",
+    "pdf": "assets/certificates/python-programming.pdf"
+    },
+
+    {
+        "id": 3,
+        "title": "C Programming",
+        "organization": "Info Planet Coding Classes, Jalgaon",
+        "year": "20, July 2022",
+        "icon": "fa-solid fa-code",
+        "description": "Completed C Programming covering problem-solving, functions, arrays.",
+        "pdf": "assets/certificates/c-programming.pdf"
+    },
+
+    {
+        "id": 4,
+        "title": "JavaScript Development",
+        "organization": "Info Planet Coding Classes, Jalgaon",
+        "year": "12, February 2024",
+        "icon": "fa-brands fa-js",
+        "description": "Completed JavaScript certification covering ES6+, DOM Manipulation, Events.",
+        "pdf": "assets/certificates/javascript.pdf"
+    },
+    {
+    "id": 5,
+    "title": "C++ Programming",
+    "organization": "Info Planet Coding Classes, Jalgaon",
+    "year": "12, February 2024",
+    "icon": "fa-solid fa-code",
+    "description": "Completed C++ Programming covering OOP, inheritance, polymorphism, and file handling.",
+    "pdf": "assets/certificates/cpp-programming.pdf"
+}
+]
