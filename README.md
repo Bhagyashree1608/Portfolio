@@ -5,8 +5,12 @@ A modern, responsive, and interactive personal portfolio website built to showca
 The portfolio follows a clean UI with smooth animations, responsive layouts, dynamic project loading using JSON, and an integrated contact form powered by EmailJS.
 
 ---
+## 🚀 Live Demo
 
+🔗 **Portfolio:** 
+https://bhagyashreemistari.vercel.app/
 
+---
 # ✨ Features
 
 - 🎨 Modern Responsive UI
